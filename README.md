@@ -176,80 +176,155 @@ ffmpeg-python (batch resize for TikTok/Reels)
 
 ---
 
-## 📡 Top 20 AI Video APIs & Products (Hacker News / TechCrunch / Twitter Buzz 2025-2026)
+## 📡 Top 20 AI Video APIs — Agent-Ready Reference
 
-Beyond GitHub repos — actual launched APIs and products getting real traction. Sorted by category.
+The actual APIs an AI agent can call right now to generate, edit, transcribe, host, and analyze video. Includes pricing, endpoints, and agent usage patterns.
 
 ### 🎬 Video Generation APIs
 
-| # | Product | Type | Pricing | API? | Buzz |
-|---|---------|------|---------|------|------|
-| 1 | **Runway** (Gen-4.5) | Text/Image → Video | Free, $12-$76/mo | ✅ Yes | Netflix production deal, $237M raised |
-| 2 | **Pika** (2.5) | Text → Video | Free, $8-$76/mo | ✅ Yes | 1080p, lip sync, Pikascenes |
-| 3 | **OpenAI Sora** | Text → Video | ChatGPT Plus $20/mo | ❌ No API yet | Cinematic quality, launched Dec 2024 |
-| 4 | **Kling AI** (3.0) | Text → Video | ~$0.07/s via fal.ai | ✅ Yes | #1 for motion quality, Kuaishou |
-| 5 | **Google Veo 3/3.1** | Text → Video | $0.40/s via fal.ai | ✅ Vertex AI | Flooded internet May 2025 |
-| 6 | **Genmo Mochi 1** | Text → Video | Free (open source) | ✅ Apache 2.0 | Best open-source video model |
-| 7 | **ByteDance Seedance 2.0** | Text → Video | API rolling out | ✅ Yes | TikTok editing patterns, temporal consistency |
-| 8 | **Wan 2.5** (Alibaba) | Text → Video | $0.05/s via fal.ai | ✅ Yes | Best bang for buck |
-| 9 | **Hailuo AI / Ovi** | Text → Video | $0.20/video via fal.ai | ✅ Yes | Cost-effective new entrant |
-| 10 | **InVideo AI** | Text → 30min videos | Free tier, ~$20/mo | ⚠️ Limited | Meta-platform over Sora/Veo/Kling |
+| # | API | Endpoint | Auth | Pricing (Agent-Friendly) | Best For |
+|---|-----|----------|------|--------------------------|----------|
+| 1 | **Runway** | `api.runwayml.ai/v1/text_to_video` | API Key | Free tier, Standard $12/mo, Pro $28/mo | Cinematic text/video generation |
+| 2 | **Pika** | `api.pika.art/v1/generate` | API Key | Free 80cr/mo, $8-$76/mo | Quick social clips, Pikascenes |
+| 3 | **Kling AI** | `api.klingai.com/v1/videos` | API Key | ~$0.07/s via fal.ai | Best motion quality, physics |
+| 4 | **Google Veo** | `us-central1-aiplatform.googleapis.com/v1/projects/...` | OAuth/Vertex AI | $0.40/s via fal.ai | Google Cloud ecosystem |
+| 5 | **Genmo** | `api.genmo.ai/v1/generate` | API Key | Free (open source) | Self-hostable, Apache 2.0 |
+| 6 | **Wan 2.5** (Alibaba) | Via `fal.ai` or Alibaba API | API Key | $0.05/s | Cheapest quality gen |
+| 7 | **Hailuo / Ovi** | Via `fal.ai` | API Key | $0.20/video | Cost-effective short clips |
+| 8 | **Seedance** (ByteDance) | API rolling out via ByteDance | API Key | TBD | TikTok editing patterns |
+| 9 | **InVideo AI** | `api.invideo.io/v1` | API Key | Free tier, ~$20/mo | Long-form (30min) videos |
+| 10 | **Sora** (OpenAI) | ❌ No public API yet | ChatGPT only | ChatGPT Plus $20/mo | Cinematic quality |
 
-### 🗣️ Avatar & Talking Head Video
-
-| # | Product | Type | Pricing | API? | Buzz |
-|---|---------|------|---------|------|------|
-| 11 | **HeyGen** | AI Avatar Videos | Free (3/mo), $29-$99/mo | ✅ Yes | $500M valuation, Video Agent feature |
-| 12 | **Synthesia** | AI Avatar Videos | Free (1,200cr), $14-$59/mo | ✅ Yes | 50k+ teams, 180 avatars, SOC 2 |
-| 13 | **ElevenLabs** | Video + Voice/Dubbing | Free, $6-$99/mo | ✅ ElevenAPI | Automatic dubbing with lip sync |
-
-### ✂️ Video Editing APIs
-
-| # | Product | Type | Pricing | API? | Buzz |
-|---|---------|------|---------|------|------|
-| 14 | **Shotstack** | Cloud Video Editing API | $0.20-$0.30/credit | ✅ Full REST | White-label editor SDK, 4K 60fps |
-| 15 | **Mux** | Video Infrastructure | Free tier, ~$0.003/min | ✅ Comprehensive | $200M raised, major platforms |
-| 16 | **api.video** | Video Hosting + Encoding | Free encoding, pay storage | ✅ Full REST | Free encoding is unique |
-| 17 | **Descript** | Text-based Video Editor | $16-$50/mo | ❌ No API | "Underlord" AI co-editor, translate & dub |
-
-### 📐 Video Repurposing
-
-| # | Product | Type | Pricing | API? | Buzz |
-|---|---------|------|---------|------|------|
-| 18 | **CrabCut** | Long → Shorts AI | Freemium (60 free credits) | ❌ No API | Scene + speech segmentation, Show HN |
-
-### 🎙️ Transcription & Analysis APIs
-
-| # | Product | Type | Pricing | API? | Buzz |
-|---|---------|------|---------|------|------|
-| 19 | **Deepgram** (Nova-3) | STT + Audio AI | Free $200 credit, $0.0048/min | ✅ Full API | Nova-3, Flux, Voice Agent API |
-| 20 | **AssemblyAI** (Universal-3) | STT + Voice Agent | Free $50 credit, $0.21/hr | ✅ Full API | Universal-3 Pro, SOC 2/ISO 27001 |
-
-### 🏅 Honorable Mentions
-
-| Tool | Why It Matters |
-|------|---------------|
-| **Gladia** | STT API at $0.61/hr, 10h free monthly — direct Deepgram competitor |
-| **fal.ai** | Inference API serving Kling, Veo, Wan, Ovi — $1.89/hr H100 GPU |
-| **Opus Clip** | Popular long→shorts tool (no public API) |
-| **Kapwing** | Online video editor with API, "AI Slop Report" 159 HN points |
-| **Sieve** | Social video automation API (HN buzz) |
-| **Pixverse** | Free text-to-video, popular on fal.ai |
-
-### 💡 AI Video Agent Pipeline (Putting It Together)
-
-```
-Raw video → Deepgram/AssemblyAI (transcribe) → auto-editor (remove silence) → 
-Runway/Pika (generate B-roll) → Shotstack/MoviePy (edit programmatically) →
-Mux/api.video (host & deliver) → HeyGen/Synthesia (add AI avatar presenter)
+**Agent Pattern:**
+```python
+# Generate B-roll for a talking head video
+response = requests.post(
+    "https://api.runwayml.ai/v1/text_to_video",
+    headers={"Authorization": f"Bearer {RUNWAY_KEY}"},
+    json={"prompt": "Drone shot of a lake at sunset", "duration": 5}
+)
 ```
 
-Or for content creation agents:
+### 🗣️ Avatar & Talking Head APIs
 
+| # | API | Endpoint | Auth | Pricing | Best For |
+|---|-----|----------|------|---------|----------|
+| 11 | **HeyGen** | `api.heygen.com/v2/video/generate` | API Key | Free 3/mo, $29-$99/mo | Avatar presenters, digital twins |
+| 12 | **Synthesia** | `api.synthesia.io/v2/videos` | API Key | Free 1,200cr, $14-$59/mo | Enterprise avatar videos |
+| 13 | **ElevenLabs** | `api.elevenlabs.io/v1` | API Key | Free 10kcr, $6-$99/mo | Voiceover + lip-sync dubbing |
+
+**Agent Pattern:**
+```python
+# Create an AI avatar video
+response = requests.post(
+    "https://api.heygen.com/v2/video/generate",
+    headers={"X-Api-Key": HEYGEN_KEY},
+    json={
+        "avatar": {"avatar_id": "Oliver-avatar"},
+        "script": {"text": "Welcome to our marketplace!"},
+        "background": {"color": "#1a1a2e"}
+    }
+)
 ```
-Long video → CrabCut/SamurAIGPT (clip highlights) → Remotion (add branding) → 
-ElevenLabs (dub/voiceover) → ffmpeg (batch resize for platforms)
+
+### ✂️ Video Editing & Processing APIs
+
+| # | API | Endpoint | Auth | Pricing | Best For |
+|---|-----|----------|------|---------|----------|
+| 14 | **Shotstack** | `api.shotstack.io/v1/render` | API Key | $0.20-$0.30/credit | Programmatic video assembly |
+| 15 | **Mux** | `api.mux.com/video/v1` | API Key + Token | Free tier, ~$0.003/min | Video hosting & streaming |
+| 16 | **api.video** | `ws.api.video/v1` | API Key | Free encoding, pay storage | Cost-effective hosting |
+| 17 | **Descript** | ❌ No public API | Desktop app only | $16-$50/mo | Text-based editing UI |
+| 18 | **Kapwing** | `api.kapwing.com/v1` | API Key | Free tier, paid for more | Online editing + API |
+
+**Agent Pattern:**
+```python
+# Programmatically assemble a video with Shotstack
+response = requests.post(
+    "https://api.shotstack.io/v1/render",
+    headers={"x-api-key": SHOTSTACK_KEY},
+    json={
+        "timeline": {
+            "tracks": [{
+                "clips": [{
+                    "asset": {"type": "video", "src": video_url},
+                    "start": 0, "length": 10,
+                    "transition": {"type": "fade"}
+                }]
+            }]
+        }
+    }
+)
 ```
+
+### 🎙️ Transcription & Audio Intelligence APIs
+
+| # | API | Endpoint | Auth | Pricing | Best For |
+|---|-----|----------|------|---------|----------|
+| 19 | **Deepgram** | `api.deepgram.com/v1/listen` | API Key | Free $200cr, $0.0048/min | Real-time STT, Nova-3 model |
+| 20 | **AssemblyAI** | `api.assemblyai.com/v2` | API Key | Free $50cr, $0.21/hr | Accurate multilingual STT |
+| 21 | **Gladia** | `api.gladia.io/v2` | API Key | 10h free/mo, $0.61/hr | Budget competitor |
+| 22 | **Rev.ai** | `api.rev.ai/speechtotext/v1` | API Key | $0.014/min | Enterprise STT |
+
+**Agent Pattern:**
+```python
+# Transcribe a video file
+response = requests.post(
+    "https://api.deepgram.com/v1/listen",
+    headers={"Authorization": f"Token {DEEPGRAM_KEY}"},
+    json={"url": video_url},
+    params={"model": "nova-3", "smart_format": "true"}
+)
+transcript = response.json()["results"]["channels"][0]["alternatives"][0]["transcript"]
+```
+
+### 🖼️ Video Understanding & Analysis APIs
+
+| # | API | Endpoint | Auth | Pricing | Best For |
+|---|-----|----------|------|---------|----------|
+| 23 | **Google Video Intelligence** | `videointelligence.googleapis.com/v1` | OAuth | $0.10/min | Label detection, shot change |
+| 24 | **AWS Rekognition Video** | `rekognition.amazonaws.com` | IAM | $0.10/min | Face detection, celebrity recognition |
+| 25 | **Azure Video Indexer** | `api.videoindexer.ai` | API Key | Free 10h, $0.06/min | Deep video analysis |
+
+### 🚀 Inference Platforms (Runs Multiple Models)
+
+| # | API | Endpoint | Auth | Pricing | Best For |
+|---|-----|----------|------|---------|----------|
+| 26 | **fal.ai** | `api.fal.ai/v1` | API Key | $1.89/hr H100 GPU | Run Kling, Veo, Wan, Ovi |
+| 27 | **Replicate** | `api.replicate.com/v1` | API Key | Pay per prediction | Run open-source video models |
+| 28 | **Hugging Face** | `api-inference.huggingface.co/models/...` | API Key | Free tier, paid for GPU | Community video models |
+
+### 💡 Agent Usage Patterns
+
+**Cold call lead generation (our aqua-rent setup):**
+```
+Lead data → HeyGen API (generate avatar intro) → Mux (host) → 
+custom script → send to prospect
+```
+
+**Content repurposing agent:**
+```
+Long video → Deepgram (transcribe & chapters) → AssemblyAI (summarize) → 
+Runway/Pika (generate B-roll) → Shotstack (assemble cuts) → Mux (deliver to social)
+```
+
+**Property video agent:**
+```
+Walkthrough video → Google VI (label rooms/objects) → 
+Shotstack (add text overlays) → api.video (host for listing)
+```
+
+### 💰 Cost Comparison (Per Minute of Output)
+
+| API | Cost/min | Notes |
+|-----|----------|-------|
+| Wan 2.5 | $3.00 | via fal.ai, cheapest gen |
+| Kling 2.5 | $4.20 | via fal.ai |
+| Veo 3 | $24.00 | via fal.ai |
+| Runway Gen-3 | ~$1.00 | Subscription, unlimited |
+| Deepgram | $0.0048 | Cheapest transcription |
+| Mux | $0.0032 | Hosting + delivery |
+| Shotstack | ~$0.30 | Rendering |
 
 ---
 
