@@ -176,6 +176,83 @@ ffmpeg-python (batch resize for TikTok/Reels)
 
 ---
 
+## 📡 Top 20 AI Video APIs & Products (Hacker News / TechCrunch / Twitter Buzz 2025-2026)
+
+Beyond GitHub repos — actual launched APIs and products getting real traction. Sorted by category.
+
+### 🎬 Video Generation APIs
+
+| # | Product | Type | Pricing | API? | Buzz |
+|---|---------|------|---------|------|------|
+| 1 | **Runway** (Gen-4.5) | Text/Image → Video | Free, $12-$76/mo | ✅ Yes | Netflix production deal, $237M raised |
+| 2 | **Pika** (2.5) | Text → Video | Free, $8-$76/mo | ✅ Yes | 1080p, lip sync, Pikascenes |
+| 3 | **OpenAI Sora** | Text → Video | ChatGPT Plus $20/mo | ❌ No API yet | Cinematic quality, launched Dec 2024 |
+| 4 | **Kling AI** (3.0) | Text → Video | ~$0.07/s via fal.ai | ✅ Yes | #1 for motion quality, Kuaishou |
+| 5 | **Google Veo 3/3.1** | Text → Video | $0.40/s via fal.ai | ✅ Vertex AI | Flooded internet May 2025 |
+| 6 | **Genmo Mochi 1** | Text → Video | Free (open source) | ✅ Apache 2.0 | Best open-source video model |
+| 7 | **ByteDance Seedance 2.0** | Text → Video | API rolling out | ✅ Yes | TikTok editing patterns, temporal consistency |
+| 8 | **Wan 2.5** (Alibaba) | Text → Video | $0.05/s via fal.ai | ✅ Yes | Best bang for buck |
+| 9 | **Hailuo AI / Ovi** | Text → Video | $0.20/video via fal.ai | ✅ Yes | Cost-effective new entrant |
+| 10 | **InVideo AI** | Text → 30min videos | Free tier, ~$20/mo | ⚠️ Limited | Meta-platform over Sora/Veo/Kling |
+
+### 🗣️ Avatar & Talking Head Video
+
+| # | Product | Type | Pricing | API? | Buzz |
+|---|---------|------|---------|------|------|
+| 11 | **HeyGen** | AI Avatar Videos | Free (3/mo), $29-$99/mo | ✅ Yes | $500M valuation, Video Agent feature |
+| 12 | **Synthesia** | AI Avatar Videos | Free (1,200cr), $14-$59/mo | ✅ Yes | 50k+ teams, 180 avatars, SOC 2 |
+| 13 | **ElevenLabs** | Video + Voice/Dubbing | Free, $6-$99/mo | ✅ ElevenAPI | Automatic dubbing with lip sync |
+
+### ✂️ Video Editing APIs
+
+| # | Product | Type | Pricing | API? | Buzz |
+|---|---------|------|---------|------|------|
+| 14 | **Shotstack** | Cloud Video Editing API | $0.20-$0.30/credit | ✅ Full REST | White-label editor SDK, 4K 60fps |
+| 15 | **Mux** | Video Infrastructure | Free tier, ~$0.003/min | ✅ Comprehensive | $200M raised, major platforms |
+| 16 | **api.video** | Video Hosting + Encoding | Free encoding, pay storage | ✅ Full REST | Free encoding is unique |
+| 17 | **Descript** | Text-based Video Editor | $16-$50/mo | ❌ No API | "Underlord" AI co-editor, translate & dub |
+
+### 📐 Video Repurposing
+
+| # | Product | Type | Pricing | API? | Buzz |
+|---|---------|------|---------|------|------|
+| 18 | **CrabCut** | Long → Shorts AI | Freemium (60 free credits) | ❌ No API | Scene + speech segmentation, Show HN |
+
+### 🎙️ Transcription & Analysis APIs
+
+| # | Product | Type | Pricing | API? | Buzz |
+|---|---------|------|---------|------|------|
+| 19 | **Deepgram** (Nova-3) | STT + Audio AI | Free $200 credit, $0.0048/min | ✅ Full API | Nova-3, Flux, Voice Agent API |
+| 20 | **AssemblyAI** (Universal-3) | STT + Voice Agent | Free $50 credit, $0.21/hr | ✅ Full API | Universal-3 Pro, SOC 2/ISO 27001 |
+
+### 🏅 Honorable Mentions
+
+| Tool | Why It Matters |
+|------|---------------|
+| **Gladia** | STT API at $0.61/hr, 10h free monthly — direct Deepgram competitor |
+| **fal.ai** | Inference API serving Kling, Veo, Wan, Ovi — $1.89/hr H100 GPU |
+| **Opus Clip** | Popular long→shorts tool (no public API) |
+| **Kapwing** | Online video editor with API, "AI Slop Report" 159 HN points |
+| **Sieve** | Social video automation API (HN buzz) |
+| **Pixverse** | Free text-to-video, popular on fal.ai |
+
+### 💡 AI Video Agent Pipeline (Putting It Together)
+
+```
+Raw video → Deepgram/AssemblyAI (transcribe) → auto-editor (remove silence) → 
+Runway/Pika (generate B-roll) → Shotstack/MoviePy (edit programmatically) →
+Mux/api.video (host & deliver) → HeyGen/Synthesia (add AI avatar presenter)
+```
+
+Or for content creation agents:
+
+```
+Long video → CrabCut/SamurAIGPT (clip highlights) → Remotion (add branding) → 
+ElevenLabs (dub/voiceover) → ffmpeg (batch resize for platforms)
+```
+
+---
+
 ## 🌟 Contributing
 
 PRs welcome! Know a great video tool for AI agents? Open an issue or PR.
