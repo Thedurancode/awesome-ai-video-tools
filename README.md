@@ -212,6 +212,7 @@ The actual APIs an AI agent can call right now to generate, edit, transcribe, ho
 | 7 | **Hailuo/Ovi** | Via `fal.ai` | API Key | $0.20/video | Short clips |
 | 8 | **InVideo** | `api.invideo.io/v1` | API Key | Free / ~$20/mo | Long-form |
 | 9 | **Sora** | ❌ No public API | ChatGPT only | ChatGPT $20/mo | Cinematic |
+| 10 | **[ImagineClip](https://imagineclip.com)** | Web app | Account | Freemium | Avatar clips and social videos |
 
 ```python
 # Generate B-roll for any video
