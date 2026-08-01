@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/Thedurancode/awesome-ai-video-tools/stargazers"><img src="https://img.shields.io/github/stars/Thedurancode/awesome-ai-video-tools?style=flat&logo=github&color=yellow"/></a>
-  <a href="https://github.com/Thedurancode/awesome-ai-video-tools"><img src="https://img.shields.io/badge/tools-88_total-blue"/></a>
+  <a href="https://github.com/Thedurancode/awesome-ai-video-tools"><img src="https://img.shields.io/badge/tools-89_total-blue"/></a>
   <a href="https://github.com/Thedurancode/awesome-ai-video-tools"><img src="https://img.shields.io/badge/APIs-28_ready-green"/></a>
   <a href="https://github.com/Thedurancode/awesome-ai-video-tools/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-purple"/></a>
 </p>
@@ -24,7 +24,7 @@ Most video tools on GitHub are built by developers for developers. They're power
 
 This list is different. It's built by someone who's **been on both sides of the camera** — writing code for two decades while simultaneously producing, editing, and directing video content. Every tool here was evaluated through the lens of: *"Would an AI agent actually use this in a real pipeline?"*
 
-The result: **60 hand-picked open-source repos + 28 production APIs**, organized by what they actually do, with real endpoints, real pricing, and real code patterns an agent can copy-paste.
+The result: **61 hand-picked open-source repos + 28 production APIs**, organized by what they actually do, with real endpoints, real pricing, and real code patterns an agent can copy-paste.
 
 ---
 
@@ -39,7 +39,7 @@ The result: **60 hand-picked open-source repos + 28 production APIs**, organized
 | 📡 **Streaming & Servers** | 5 | SRS | ⭐29k |
 | 🔄 **Transcoding** | 4 | FFmpeg | ⭐60k |
 | 🎭 **Face & Restoration** | 4 | faceswap | ⭐55k |
-| 🤖 **AI Agent Tools** | 7 | remotion | ⭐46k |
+| 🤖 **AI Agent Tools** | 8 | remotion | ⭐46k |
 
 **Total: 88 tools** combining for **~1.2 million GitHub stars** worth of community validation.
 
@@ -192,6 +192,7 @@ Specialized tools designed for AI agents to create, schedule, and publish video 
 | 5 | [Forget-C/Jellyfish](https://github.com/Forget-C/Jellyfish) | ⭐3.2k | Python | End-to-end AI short drama production |
 | 6 | [HA6Bots/TikTok-Compilation-Video-Generator](https://github.com/HA6Bots/TikTok-Compilation-Video-Generator) | ⭐931 | Python | Auto clip collection + compilations |
 | 7 | [NisaarAgharia/AI-Shorts-Creator](https://github.com/NisaarAgharia/AI-Shorts-Creator) | ⭐757 | Python | AI auto-crop + highlight extraction |
+| 8 | [Orkas-AI/Orkas-VideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) | ⭐516 | TypeScript | Local-first CLI + MCP video studio for coding agents |
 
 ---
 
