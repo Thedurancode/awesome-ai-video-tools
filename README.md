@@ -82,6 +82,7 @@ Tools that generate video from text, images, or other inputs using AI. **The fas
 | 12 | [williamyang1991/Rerender_A_Video](https://github.com/williamyang1991/Rerender_A_Video) | ⭐3.0k | Python | Text-guided video-to-video |
 | 13 | [showlab/MotionDirector](https://github.com/showlab/MotionDirector) | ⭐1.0k | Python | Motion customization |
 | 14 | [PKU-YuanGroup/ConsisID](https://github.com/PKU-YuanGroup/ConsisID) | ⭐839 | Python | Identity-preserving video gen |
+| 15 | [abicevoice1-sudo/shortsmash](https://github.com/abicevoice1-sudo/shortsmash) | ⭐0 | Python | Prompt-to-published shorts: 50-language dubbing, vision-verified footage |
 
 ---
 
