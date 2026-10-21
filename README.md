@@ -192,6 +192,7 @@ Specialized tools designed for AI agents to create, schedule, and publish video 
 | 5 | [Forget-C/Jellyfish](https://github.com/Forget-C/Jellyfish) | ⭐3.2k | Python | End-to-end AI short drama production |
 | 6 | [HA6Bots/TikTok-Compilation-Video-Generator](https://github.com/HA6Bots/TikTok-Compilation-Video-Generator) | ⭐931 | Python | Auto clip collection + compilations |
 | 7 | [NisaarAgharia/AI-Shorts-Creator](https://github.com/NisaarAgharia/AI-Shorts-Creator) | ⭐757 | Python | AI auto-crop + highlight extraction |
+| 8 | [hydope/shortsmash](https://github.com/hydope/shortsmash) | ⭐2 | Python | Prompt-to-published short videos: AI script, neural voiceover, stock footage, karaoke captions |
 
 ---
 
