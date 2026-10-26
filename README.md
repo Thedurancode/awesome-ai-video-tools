@@ -64,6 +64,7 @@ The result: **60 hand-picked open-source repos + 28 production APIs**, organized
 
 # 🎨 AI Video Generation
 
+- [Ideoy](https://ideoy.ai) - Remake this week's meme videos with one selfie (AI image-to-video, freemium, adults only).
 Tools that generate video from text, images, or other inputs using AI. **The fastest-moving category in tech right now.**
 
 | # | Repo | Stars | Lang | What It Does |
