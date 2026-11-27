@@ -299,6 +299,7 @@ transcript = response.json()["results"]["channels"][0]["alternatives"][0]["trans
 | 1 | **fal.ai** | `api.fal.ai/v1` | API Key | $1.89/hr H100 | Run Kling, Veo, Wan |
 | 2 | **Replicate** | `api.replicate.com/v1` | API Key | Pay per prediction | Open-source models |
 | 3 | **Hugging Face** | Inference API | API Key | Free tier / GPU paid | Community models |
+| 4 | **[MuAPI](https://muapi.ai)** | `api.muapi.ai/api/v1/{endpoint}` | API Key (`x-api-key`) | Pay per generation; varies by model | Image, video, audio & 3D generation |
 
 ---
 
